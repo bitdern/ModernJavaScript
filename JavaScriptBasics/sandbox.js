@@ -1,13 +1,14 @@
-let email = "mario@thenetninja.co.uk";
+let radius = 10;
+const pi = 3.14;
 
-// let result = email.lastIndexOf("n");
+// console.log(radius, pi);
 
-// let result = email.slice(0, 10);
+// let result = radius % 3;
 
-// let result = email.substring(4, 10);
+let likes = 10;
 
-// let result = email.replace("m", "w");
+likes += 45;
 
-let result = email.replace("n", "w");
+let result = "the blog has " + likes + " likes";
 
 console.log(result);
