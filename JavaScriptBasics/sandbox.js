@@ -1,11 +1,13 @@
-let age = 25;
-let year = 2023;
+let email = "mario@thenetninja.co.uk";
 
-//logging things to console
-console.log(age, year);
+// let result = email.lastIndexOf("n");
 
-age = 30;
-console.log(age);
+// let result = email.slice(0, 10);
 
-const points = 100;
-console.log(points);
+// let result = email.substring(4, 10);
+
+// let result = email.replace("m", "w");
+
+let result = email.replace("n", "w");
+
+console.log(result);
