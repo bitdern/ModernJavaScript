@@ -1,14 +1,21 @@
-let radius = 10;
-const pi = 3.14;
+const title = "Best reads of 2023";
+const author = "amarrrrio";
+const likes = 30;
 
-// console.log(radius, pi);
+// concatenation way
+//let result = likes
+// "The blog called " + title + " by " + author + " has " + likes + " likes";
+//console.log(result);
 
-// let result = radius % 3;
+//template string way (aka template literal)
+//let result = `The blog called ${title} by ${author} has ${likes} likes.`;
+//console.log(result);
 
-let likes = 10;
+//creating html templates
+let html = `
+<h2> ${title} </h2>
+<p> By ${author} </p>
+<span>This blog has ${likes} likes</span>
+`;
 
-likes += 45;
-
-let result = "the blog has " + likes + " likes";
-
-console.log(result);
+console.log(html);
