@@ -1,21 +1,23 @@
-const title = "Best reads of 2023";
-const author = "amarrrrio";
-const likes = 30;
+let ninjas = ["kabuto", "ryu", "dernpapi"];
 
-// concatenation way
-//let result = likes
-// "The blog called " + title + " by " + author + " has " + likes + " likes";
-//console.log(result);
+// ninjas[1] = "kung fu kenny";
+// console.log(ninjas[1]);
 
-//template string way (aka template literal)
-//let result = `The blog called ${title} by ${author} has ${likes} likes.`;
-//console.log(result);
+// let ages = [20, 25, 29, 35];
 
-//creating html templates
-let html = `
-<h2> ${title} </h2>
-<p> By ${author} </p>
-<span>This blog has ${likes} likes</span>
-`;
+// console.log(ages[2]);
 
-console.log(html);
+// let random = ["shawn", "dern", 69, 420];
+// console.log(random);
+
+// console.log(ninjas.length);
+
+//let result = ninjas.join(",");
+//let result = ninjas.indexOf("dernpapi");
+
+//let result = ninjas.concat(["kenny", "krystal"]);
+
+let result = ninjas.push("kenny");
+let = ninjas.pop();
+
+console.log(result);
